@@ -17,5 +17,29 @@ namespace fukuv0602
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Top = label1.Top - 10;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left = label1.Left - 10;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Left = label1.Left + 10;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.Left = label1.Top + 10;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("高橋涼");
+        }
     }
 }
