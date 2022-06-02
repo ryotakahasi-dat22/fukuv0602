@@ -38,12 +38,14 @@ namespace fukuv0602
             // 
             // label1
             // 
+            this.label1.AllowDrop = true;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(150, 154);
+            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(0, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.Size = new System.Drawing.Size(475, 72);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "どうなっちゃうんだぁ～";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
