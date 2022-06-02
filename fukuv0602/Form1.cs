@@ -44,6 +44,7 @@ namespace fukuv0602
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("高橋涼");
+            label1.Visible = false;
         }
     }
 }
